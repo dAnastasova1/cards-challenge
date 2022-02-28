@@ -1,0 +1,103 @@
+@media screen and (max-width: 767px) {
+    .card-container {
+        flex: 0 100%;
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .card-container {
+        flex: 0 45%;
+
+    }
+}
+@media screen and (min-width: 992px) {
+    .card-container {
+        flex: 0 20%;
+
+    }
+}
+.card-container {
+    border: 2px solid lightgray;
+    max-width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+#load-more-btn {
+    color: white;
+    background-color: #0081FF;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 20px 13px 20px;
+    font-weight: bold;
+
+}
+#load-more-btn:disabled {
+    display: none;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.profile-name {
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: top;
+
+}
+.profile-info {
+    display: inline-block;
+    padding: 5px 0 0 10px;
+    vertical-align: top;
+}
+.profile-date {
+    font-family: sans-serif;
+    margin-top: 3px;
+    vertical-align: top;
+    font-size: small;
+}
+.insta-logo {
+    float: right;
+    margin-top: 10px;
+}
+.card-img {
+    object-fit: cover;
+    width:100%;
+    height:390px;
+}
+.like-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.like-count {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: top;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: lightgray;
+}
+.caption {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 75px;
+}
+#container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto 0 50px;
+}
+.btn-text-center {
+    text-align: center;
+}
+.selected  {
+    background-color: red;
+}
