@@ -41,10 +41,11 @@
     height: 50px;
 }
 .profile-name {
-    font-family: sans-serif;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: top;
+    font-weight: bold;
 
 }
 .profile-info {
@@ -85,7 +86,8 @@ hr {
 .caption {
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 75px;
+    height: 60px;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 #container {
     width: 100%;
